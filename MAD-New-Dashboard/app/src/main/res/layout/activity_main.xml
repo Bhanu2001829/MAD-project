@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sidetop_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/img_1"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_1"
+        android:layout_below="@id/img_1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img_2"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_2"
+        android:text="NES EDU CAD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/txt_1"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_1"
+        android:text="get your course of us and win the life and careeer path"
+        android:padding="60dp"
+        android:gravity="center"
+        android:fontFamily=""
+        android:textColor="@color/black"
+        android:id="@+id/txt_2"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:text="Login"
+        android:layout_below="@+id/txt_2"
+        android:backgroundTint="@color/SecondaryColor"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:id="@+id/btn_1"
+        android:shadowColor="@color/black"
+
+        />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/SecondaryColor"
+        android:fontFamily=""
+        android:shadowColor="@color/black"
+        android:text="Sign in"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
