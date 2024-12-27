@@ -53,6 +53,18 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".ViewBranch"
+            android:exported="false" />
+        <activity
+            android:name=".ViewCourse"
+            android:exported="false" />
+        <activity
+            android:name=".ViewStudent"
+            android:exported="false" />
+        <activity
             android:name=".SignInActivity"
             android:exported="false" />
         <activity android:name=".MainActivity"
