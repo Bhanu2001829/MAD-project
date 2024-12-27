@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.madloginpage"
+    namespace = "com.example.maddashboard"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.madloginpage"
+        applicationId = "com.example.maddashboard"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
