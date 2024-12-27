@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maddashboard.RegistationSuccessfulyActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="413dp"
+
+        android:layout_height="63dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="65dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="580dp"
+            android:src="@drawable/nimthera_app_l2_01"
+            app:srcCompat="@drawable/nimthera_app_l2_01" />
+
+        <ImageButton
+
+            android:id="@+id/menuButton"
+            android:layout_width="53dp"
+            android:layout_height="64dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="menu"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <EditText
+            android:id="@+id/searchBar"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="242dp"
+            android:layout_height="64dp"
+            android:background="@color/background"
+            android:hint="     What are you looking for" />
+
+        <ImageButton
+            android:id="@+id/notificationButton"
+            android:layout_width="54dp"
+            android:layout_height="63dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="Notifications"
+            android:src="@drawable/baseline_circle_notifications_24"
+            tools:srcCompat="@drawable/baseline_circle_notifications_24" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="511dp"
+        android:layout_height="403dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/registration_successful_account_successfully_created_concept_simple_modern_graphic_element_for_landing_page_ui_vector" />
+
+    <TextView
+        android:id="@+id/Congratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="388dp"
+        android:gravity="center"
+        android:text="Congratulations!"
+        android:textColor="@color/thirdColor"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/Successful"
+        android:layout_width="378dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Registation Successful!"
+        android:textColor="@color/thirdColor"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Congratulations"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/Congratulations"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="410dp"
+        android:layout_height="69dp"
+        app:backgroundTint="@color/primaryColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/guest_menu"
+        app:itemIconTint="#FFFF"
+        app:itemTextColor="@color/white"
+        app:itemIconSize="32dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="304dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:text="Visit documentation  check your email"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/Successful"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="@+id/Successful"
+        app:layout_constraintTop_toBottomOf="@+id/Successful" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
