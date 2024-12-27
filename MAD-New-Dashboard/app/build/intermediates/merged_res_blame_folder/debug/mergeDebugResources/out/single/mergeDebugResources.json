@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/xml_backup_rules.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_baseline_apartment_24.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/baseline_apartment_24.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_circle_background.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_registation_successfuly.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/registation_successfuly.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_enter_new_password.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/enter_new_password.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_guest_home.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/guest_home.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_notification.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/notification.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_nimthera_app_l2_01.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/nimthera_app_l2_01.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_branch.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/branch.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_baseline_assignment_ind_24.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/baseline_assignment_ind_24.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_a675acca0d2b68e50396b989d96a7cc4.jpg.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/a675acca0d2b68e50396b989d96a7cc4.jpg"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_mad_cw_wireframe_drawio.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/mad_cw_wireframe_drawio.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_admin_banner_title.jpg.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/admin_banner_title.jpg"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/menu_admin_menu.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/menu/admin_menu.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable__21_2217551_computer_user_clip_art.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/_21_2217551_computer_user_clip_art.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_activity_forget_pwd.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/activity_forget_pwd.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_add_branch.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/add_branch.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_map.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/map.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_image_1.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/image_1.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_sidetop_1.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/sidetop_1.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_cource.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/cource.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/menu_guest_menu.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/menu/guest_menu.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_tick.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/tick.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_register_image_btn.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/register_image_btn.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_baseline_circle_notifications_24.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/baseline_circle_notifications_24.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_change_password_success.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/change_password_success.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_image_2.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/image_2.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_baseline_assignment_add_24.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/baseline_assignment_add_24.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_baseline_account_circle_24.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_admin_home.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/admin_home.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_uploade_image.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/uploade_image.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_sidetop_2.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/sidetop_2.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_course_registation.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/course_registation.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_ic_back.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_baseline_add_to_queue_24.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/baseline_add_to_queue_24.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_activity_main.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_register.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/register.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable__9198419.jpg.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/_9198419.jpg"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_course.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/course.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_button_shape.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/button_shape.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_create_cource.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/create_cource.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_baseline_app_shortcut_24.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/baseline_app_shortcut_24.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_ellipse_538.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/ellipse_538.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/layout_activity_login.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.maddashboard.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_image_3.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/image_3.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_registration_successful_account_successfully_created_concept_simple_modern_graphic_element_for_landing_page_ui_vector.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/registration_successful_account_successfully_created_concept_simple_modern_graphic_element_for_landing_page_ui_vector.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_user.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/user.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_add_user.png.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/add_user.png"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_user_btn.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/user_btn.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_baseline_apps_24.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/baseline_apps_24.xml"
+    },
+    {
+        "merged": "com.example.maddashboard.app-debug-34:/drawable_baseline_cast_for_education_24.xml.flat",
+        "source": "com.example.maddashboard.app-main-36:/drawable/baseline_cast_for_education_24.xml"
+    }
+]

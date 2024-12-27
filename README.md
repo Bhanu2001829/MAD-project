@@ -1,4 +1,4 @@
-# MAD-project
+# MAD-project 
 
 NES EDU CAD Education App 📱🎓
 
@@ -68,6 +68,8 @@ git clone https://github.com/Bhanu2001829/MAD-project
 3.	Sync the project with Gradle and set up dependencies.
 4.	Run the application on an emulator or a physical device.
 ________________________________________
+
+## This Project is not for commercial Use only made For College Assinement.
 
 License 📜
 This project is licensed under the MIT License - see the LICENSE file for details.
