@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/main_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.madfinalproject.StudentViewBranchActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="413dp"
+
+        android:layout_height="63dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="65dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="580dp"
+            android:src="@drawable/nimthera_app_l2_01"
+            app:srcCompat="@drawable/nimthera_app_l2_01" />
+
+        <ImageButton
+
+            android:id="@+id/menuButton"
+            android:layout_width="53dp"
+            android:layout_height="64dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="menu"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <EditText
+            android:id="@+id/searchBar"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="242dp"
+            android:layout_height="64dp"
+            android:background="@color/background"
+            android:hint="     What are you looking for" />
+
+        <ImageButton
+            android:id="@+id/notificationButton"
+            android:layout_width="54dp"
+            android:layout_height="63dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="Notifications"
+            android:src="@drawable/baseline_circle_notifications_24"
+            tools:srcCompat="@drawable/baseline_circle_notifications_24" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/branches"
+        android:layout_width="418dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/SecondaryColor"
+        android:text="Branches"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        app:backgroundTint="@color/primaryColor"
+        app:itemIconSize="30dp"
+        app:itemIconTint="#FFF"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/admin_menu"
+        />
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="731dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:contentDescription="notification_panel"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/branches">
+
+        <LinearLayout
+            android:id="@+id/Branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/branchId"
+                android:layout_width="381dp"
+                android:layout_height="325dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_shape"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/branchName"
+                    android:layout_width="363dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Branch Name"
+                    android:textAlignment="center"
+                    android:textColor="@color/thirdColor"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="361dp"
+                    android:layout_height="49dp"
+                    android:layout_margin="5px"
+                    android:text="example@email.com"
+                    android:textColor="#030644"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/Branch_discription"
+                    android:layout_width="363dp"
+                    android:layout_height="97dp"
+                    android:layout_margin="5px"
+                    android:text="Description"
+                    android:textColor="#030644"
+                    android:textSize="23sp" />
+
+                <Button
+                    android:id="@+id/branchLocationBtn"
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="20px"
+                    android:background="@drawable/button_shape"
+                    android:backgroundTint="@color/SecondaryColor"
+                    android:text="Location"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold">
+
+                </Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

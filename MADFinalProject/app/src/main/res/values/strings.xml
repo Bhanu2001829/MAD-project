@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MAD loginpage</string>
+    <string name="not_have_account">Not have account?</string>
+    <string name="register">Register</string>
+</resources>
