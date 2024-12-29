@@ -1,5 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
+<<<<<<< Updated upstream
+=======
+    alias(libs.plugins.google.gms.google.services)
+>>>>>>> Stashed changes
 }
 
 android {
@@ -38,6 +42,10 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.play.services.maps)
+<<<<<<< Updated upstream
+=======
+    implementation(libs.firebase.firestore)
+>>>>>>> Stashed changes
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

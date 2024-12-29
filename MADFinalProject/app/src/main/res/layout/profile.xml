@@ -198,7 +198,11 @@
 
 
             <Button
+<<<<<<< Updated upstream
                 android:id="@+id/applybtn"
+=======
+                android:id="@+id/userbtn"
+>>>>>>> Stashed changes
                 android:layout_width="257dp"
                 android:layout_height="54dp"
                 android:layout_gravity="center"

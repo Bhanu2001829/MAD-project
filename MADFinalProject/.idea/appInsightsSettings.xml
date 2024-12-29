@@ -8,10 +8,17 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
+<<<<<<< Updated upstream
                   <option name="appId" value="PLACEHOLDER" />
                   <option name="mobileSdkAppId" value="" />
                   <option name="projectId" value="" />
                   <option name="projectNumber" value="" />
+=======
+                  <option name="appId" value="com.example.madfinalproject" />
+                  <option name="mobileSdkAppId" value="1:297661736657:android:98186a1617a7b8572a47f0" />
+                  <option name="projectId" value="educad-6b829" />
+                  <option name="projectNumber" value="297661736657" />
+>>>>>>> Stashed changes
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -278,7 +278,11 @@
             </LinearLayout>
 
             <Button
+<<<<<<< Updated upstream
                 android:id="@+id/applybtn"
+=======
+                android:id="@+id/userbtn"
+>>>>>>> Stashed changes
                 android:layout_width="185dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

@@ -21,7 +21,10 @@ public class AdminHomeActivity extends AppCompatActivity {
         ImageButton userbtn = findViewById(R.id.user_btn);
         ImageButton addcourcebtn = findViewById(R.id.add_cource_btn);
         ImageButton createbranchbtn = findViewById(R.id.create_branch_btn);
+<<<<<<< Updated upstream
         ImageButton registerbtn = findViewById(R.id.register_btn);
+=======
+>>>>>>> Stashed changes
         ImageButton courcebtn = findViewById(R.id.cource_btn);
         ImageButton branchbtn = findViewById(R.id.branch_btn);
         ImageButton menuimgbtn = findViewById(R.id.menuButton);
@@ -46,11 +49,15 @@ public class AdminHomeActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+<<<<<<< Updated upstream
         registerbtn.setOnClickListener(v -> {
             // Navigate to Notification Activity
             Intent intent = new Intent(AdminHomeActivity.this, CourseRegistrationActivity.class);
             startActivity(intent);
         });
+=======
+
+>>>>>>> Stashed changes
 
 
         courcebtn.setOnClickListener(v -> {

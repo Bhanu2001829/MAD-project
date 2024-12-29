@@ -162,7 +162,11 @@
             android:textSize="18sp" />
 
         <Button
+<<<<<<< Updated upstream
             android:id="@+id/applybtn"
+=======
+            android:id="@+id/userbtn"
+>>>>>>> Stashed changes
             android:layout_width="181dp"
             android:layout_height="55dp"
             android:layout_gravity="center"

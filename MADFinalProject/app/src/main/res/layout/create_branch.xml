@@ -104,7 +104,11 @@
                 android:textStyle="bold" />
 
             <TextView
+<<<<<<< Updated upstream
                 android:id="@+id/branch_name"
+=======
+                android:id="@+id/branchName"
+>>>>>>> Stashed changes
                 android:layout_width="143dp"
                 android:layout_height="wrap_content"
                 android:text="Branch Name"
@@ -114,7 +118,11 @@
                 tools:layout_editor_absoluteY="244dp" />
 
             <EditText
+<<<<<<< Updated upstream
                 android:id="@+id/fillbranch"
+=======
+                android:id="@+id/branch_name"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -138,7 +146,11 @@
                 tools:layout_editor_absoluteY="243dp" />
 
             <EditText
+<<<<<<< Updated upstream
                 android:id="@+id/filladdress"
+=======
+                android:id="@+id/branch_address"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -167,7 +179,11 @@
                 android:orientation="horizontal">
 
                 <com.google.android.gms.maps.MapView
+<<<<<<< Updated upstream
                     android:id="@+id/mapView"
+=======
+                    android:id="@+id/map_view"
+>>>>>>> Stashed changes
                     android:layout_width="236dp"
                     android:layout_height="131dp"
                     android:contentDescription="map"
@@ -188,7 +204,11 @@
             </LinearLayout>
 
             <TextView
+<<<<<<< Updated upstream
                 android:id="@+id/postal_code"
+=======
+                android:id="@+id/postalCode"
+>>>>>>> Stashed changes
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NIC"
@@ -198,7 +218,11 @@
                 tools:layout_editor_absoluteY="343dp" />
 
             <EditText
+<<<<<<< Updated upstream
                 android:id="@+id/postalcode"
+=======
+                android:id="@+id/postal_code"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -221,7 +245,11 @@
                 tools:layout_editor_absoluteY="292dp" />
 
             <EditText
+<<<<<<< Updated upstream
                 android:id="@+id/contactNumber"
+=======
+                android:id="@+id/branch_contact_number"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -244,7 +272,11 @@
                 tools:layout_editor_absoluteY="343dp" />
 
             <EditText
+<<<<<<< Updated upstream
                 android:id="@+id/emailAddress"
+=======
+                android:id="@+id/email_address"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -258,7 +290,11 @@
 
 
             <Button
+<<<<<<< Updated upstream
                 android:id="@+id/applybtn"
+=======
+                android:id="@+id/userbtn"
+>>>>>>> Stashed changes
                 android:layout_width="181dp"
                 android:layout_height="55dp"
                 android:layout_gravity="center"

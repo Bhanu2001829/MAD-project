@@ -8,9 +8,12 @@ import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< Updated upstream
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+=======
+>>>>>>> Stashed changes
 
 public class CourseRegistrationActivity extends AppCompatActivity {
 
@@ -20,7 +23,11 @@ public class CourseRegistrationActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.course_registration);
 
+<<<<<<< Updated upstream
         Button applybtn = findViewById(R.id.applybtn);
+=======
+        Button applybtn = findViewById(R.id.userbtn);
+>>>>>>> Stashed changes
         ImageButton menuimgbtn = findViewById(R.id.menuButton);
         ImageButton notificationimgbtn = findViewById(R.id.notificationButton);
 

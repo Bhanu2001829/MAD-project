@@ -41,7 +41,11 @@ public class UploadImageActivity extends AppCompatActivity {
         cameraButton = findViewById(R.id.btnCamera);
         galleryButton = findViewById(R.id.btnGallery);
 
+<<<<<<< Updated upstream
         Button applyButton = findViewById(R.id.applybtn);
+=======
+        Button applyButton = findViewById(R.id.userbtn);
+>>>>>>> Stashed changes
         ImageButton menuButton = findViewById(R.id.menuButton);
         ImageButton notificationButton = findViewById(R.id.notificationButton);
 

@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MADFinalProject"
         tools:targetApi="31">
         <activity
+<<<<<<< Updated upstream
+=======
+            android:name=".AddUserActivity"
+            android:exported="false" />
+        <activity
+>>>>>>> Stashed changes
             android:name=".StudentNotificationActivity"
             android:exported="false" />
         <activity
@@ -28,9 +34,12 @@
             android:name=".StudentViewCourseActivity"
             android:exported="false" />
         <activity
+<<<<<<< Updated upstream
             android:name=".StudentActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> Stashed changes
             android:name=".RegistrationSuccessfulyActivity"
             android:exported="false" />
         <activity
@@ -58,9 +67,12 @@
             android:name=".AddCourseActivity"
             android:exported="false" />
         <activity
+<<<<<<< Updated upstream
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
+=======
+>>>>>>> Stashed changes
             android:name=".AdminHomeActivity"
             android:exported="false" />
         <activity
@@ -76,16 +88,23 @@
             android:name=".FogetPasswordActivity"
             android:exported="false" />
         <activity
+<<<<<<< Updated upstream
             android:name=".SignInActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> Stashed changes
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainFormActivity"
             android:exported="false" />
         <activity
+<<<<<<< Updated upstream
             android:name=".SigninActivity"
+=======
+            android:name=".SignInActivity"
+>>>>>>> Stashed changes
             android:exported="false" />
         <activity
             android:name=".MainActivity"

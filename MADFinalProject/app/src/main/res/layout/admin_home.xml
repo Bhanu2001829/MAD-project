@@ -154,6 +154,7 @@
             android:orientation="horizontal">
 
             <ImageButton
+<<<<<<< Updated upstream
                 android:id="@+id/register_btn"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
@@ -163,6 +164,8 @@
                 app:srcCompat="@drawable/register" />
 
             <ImageButton
+=======
+>>>>>>> Stashed changes
                 android:id="@+id/cource_btn"
                 android:layout_width="120dp"
                 android:layout_height="120dp"

@@ -55,8 +55,11 @@
     </LinearLayout>
 
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView2"
         android:layout_width="match_parent"
@@ -71,6 +74,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< Updated upstream
         app:menu="@menu/admin_menu"
         />
 
@@ -85,11 +89,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
         app:layout_constraintVertical_bias="0.0">
+=======
+        app:menu="@menu/admin_menu" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="413dp"
+
+        android:layout_height="714dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+>>>>>>> Stashed changes
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< Updated upstream
             android:layout_margin="15px"
+=======
+            android:layout_margin="15dp"
+>>>>>>> Stashed changes
             android:orientation="vertical">
 
             <TextView
@@ -138,7 +162,11 @@
                 tools:layout_editor_absoluteY="300dp" />
 
             <Spinner
+<<<<<<< Updated upstream
                 android:id="@+id/spinner_category"
+=======
+                android:id="@+id/course_category"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -161,7 +189,11 @@
                 tools:layout_editor_absoluteY="343dp" />
 
             <Spinner
+<<<<<<< Updated upstream
                 android:id="@+id/spinner_badge"
+=======
+                android:id="@+id/course_badge"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -198,7 +230,11 @@
                 tools:layout_editor_absoluteY="640dp" />
 
             <TextView
+<<<<<<< Updated upstream
                 android:id="@+id/Duration"
+=======
+                android:id="@+id/course_duration"
+>>>>>>> Stashed changes
                 android:layout_width="109dp"
                 android:layout_height="23dp"
                 android:text="Duration"
@@ -241,7 +277,11 @@
                 tools:layout_editor_absoluteY="343dp" />
 
             <Spinner
+<<<<<<< Updated upstream
                 android:id="@+id/spinner_branch"
+=======
+                android:id="@+id/course_branch"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -265,7 +305,11 @@
                 tools:layout_editor_absoluteY="305dp" />
 
             <EditText
+<<<<<<< Updated upstream
                 android:id="@+id/starting_date"
+=======
+                android:id="@+id/course_starting_date"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -278,7 +322,11 @@
                 tools:layout_editor_absoluteY="390dp" />
 
             <TextView
+<<<<<<< Updated upstream
                 android:id="@+id/lclosing_date"
+=======
+                android:id="@+id/course_closing_date"
+>>>>>>> Stashed changes
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Closing Date"
@@ -288,7 +336,11 @@
                 tools:layout_editor_absoluteY="292dp" />
 
             <EditText
+<<<<<<< Updated upstream
                 android:id="@+id/lend_date"
+=======
+                android:id="@+id/course_end_date"
+>>>>>>> Stashed changes
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginBottom="10dp"
@@ -300,6 +352,33 @@
                 tools:layout_editor_absoluteX="33dp"
                 tools:layout_editor_absoluteY="767dp" />
 
+<<<<<<< Updated upstream
+=======
+            <TextView
+                android:id="@+id/courseDescriotion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="@color/thirdColor"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="263dp"
+                tools:layout_editor_absoluteY="292dp" />
+
+
+            <EditText
+                android:id="@+id/course_discription"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:ems="150"
+                android:hint="  Description"
+                android:inputType="textMultiLine"
+                android:textColorHint="#888888"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="767dp" />
+
+>>>>>>> Stashed changes
 
             <Button
                 android:id="@+id/createBtn"

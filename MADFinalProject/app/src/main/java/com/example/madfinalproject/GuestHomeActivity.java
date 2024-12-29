@@ -9,6 +9,10 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< Updated upstream
+=======
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+>>>>>>> Stashed changes
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -63,5 +67,10 @@ public class GuestHomeActivity extends AppCompatActivity {
         });
 
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
     }
 }
