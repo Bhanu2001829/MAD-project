@@ -1,0 +1,251 @@
+{
+  "project_info": {
+    "project_number": "297661736657",
+    "firebase_url": "https://educad-6b829-default-rtdb.firebaseio.com",
+    "project_id": "educad-6b829",
+    "storage_bucket": "educad-6b829.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297661736657:android:33d12dc9300ad0cb2a47f0",
+        "android_client_info": {
+          "package_name": "com.example.abcproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9QFF3feEqCtDlNgqeTgFcCMm9YQ6Wq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297661736657:android:187572614007214e2a47f0",
+        "android_client_info": {
+          "package_name": "com.example.mad_dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9QFF3feEqCtDlNgqeTgFcCMm9YQ6Wq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297661736657:android:98186a1617a7b8572a47f0",
+        "android_client_info": {
+          "package_name": "com.example.madfinalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9QFF3feEqCtDlNgqeTgFcCMm9YQ6Wq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297661736657:android:187ce8434755344f2a47f0",
+        "android_client_info": {
+          "package_name": "com.example.madloginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9QFF3feEqCtDlNgqeTgFcCMm9YQ6Wq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297661736657:android:2b4ead3f5320ed022a47f0",
+        "android_client_info": {
+          "package_name": "com.example.myappeducad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9QFF3feEqCtDlNgqeTgFcCMm9YQ6Wq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297661736657:android:2005e686cfe934842a47f0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9QFF3feEqCtDlNgqeTgFcCMm9YQ6Wq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297661736657:android:9b7f7dbfa27477152a47f0",
+        "android_client_info": {
+          "package_name": "com.thimathi.manahara.eduapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297661736657-scpoelbhjdk5oppr24enp2frhlfabj7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thimathi.manahara.eduapp",
+            "certificate_hash": "70f032575706440295b87e233e1d0ad81b8b85aa"
+          }
+        },
+        {
+          "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9QFF3feEqCtDlNgqeTgFcCMm9YQ6Wq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297661736657:android:b5a9567faa6ddffc2a47f0",
+        "android_client_info": {
+          "package_name": "thimathi.manahara.mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9QFF3feEqCtDlNgqeTgFcCMm9YQ6Wq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297661736657-jrgaf75tqngaitncdvtbagbik4497ji6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
