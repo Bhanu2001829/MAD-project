@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="6dp"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/BranchContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Branch Name -->
+        <TextView
+            android:id="@+id/branchName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Branch Name"
+            android:textAlignment="center"
+            android:textColor="@color/thirdColor"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Email Address"
+            android:textColor="#030644"
+            android:textSize="23sp" />
+
+        <!-- Description -->
+
+        <!-- Location Button -->
+        <TextView
+            android:id="@+id/branch_addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Branch Address"
+            android:textColor="#030644"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/branch_contact_numberEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Branch Contact Number"
+            android:textColor="#030644"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/map_view_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Map View"
+            android:textColor="#030644"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/postal_code_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Postal Code"
+            android:textColor="#030644"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/branchLocationBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/SecondaryColor"
+            android:text="Location"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
