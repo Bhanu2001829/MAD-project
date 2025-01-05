@@ -1,0 +1,366 @@
+[
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_guest_home.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\guest_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_image_1.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\image_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_user_btn.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\user_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_button_shape.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\button_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_sidetop_1.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\sidetop_1.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_add_user.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\add_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_main_background.jpg.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\main_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_add_photo_alternate_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_add_photo_alternate_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_registration_successfuly.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\registration_successfuly.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_app_shortcut_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_app_shortcut_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_student_notification.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\student_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_circle_notifications_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_circle_notifications_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_tick.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\tick.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_view_branch_test.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\view_branch_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_course.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\course.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_add_to_queue_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_add_to_queue_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\menu_mapmenu.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\menu\\mapmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_add_user.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\add_user.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_user.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_view_map_location.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\view_map_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_notification.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_apartment_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_apartment_24.xml"
+    },
+    {
+        "merged": "com.example.madfinalproject.app-debug-37:/layout_activity_view_branch_on_map.xml.flat",
+        "source": "com.example.madfinalproject.app-main-39:/layout/activity_view_branch_on_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_student_view_branch.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\student_view_branch.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_main_form.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\main_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_set_map_location.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\set_map_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_upload_image.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\upload_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_student_view_course.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\student_view_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_login.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_student_profile.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\student_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_nimthera_app_l2_01.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\nimthera_app_l2_01.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_register.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\register.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_course_registration.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\course_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_cast_for_education_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_cast_for_education_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\menu_admin_menu.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\menu\\admin_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_admin_home.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\admin_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_activity_branch_showing.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\activity_branch_showing.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_add_course.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\add_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_image_3.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\image_3.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_foget_password.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\foget_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_assignment_add_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_assignment_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_cource.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\cource.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_banner2.jpg.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\banner2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_branch.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\branch.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_change_password_successfully.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\change_password_successfully.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_add_branch.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\add_branch.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable__21_2217551_computer_user_clip_art.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\_21_2217551_computer_user_clip_art.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_activity_view_branch_on_map.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\activity_view_branch_on_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_ellipse_538.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\ellipse_538.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_map.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\map.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_add_course.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\add_course.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_branch.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\branch.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_apps_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_apps_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_sidetop_2.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\sidetop_2.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_register_image_btn.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\register_image_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_view_student.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\view_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_student_profile.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\student_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_banner3.jpg.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\banner3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_sign_in.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_view_course.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\view_course.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_view_branch.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\view_branch.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_assignment_ind_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_assignment_ind_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_profile.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_baseline_camera_24.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\baseline_camera_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable__9198419.jpg.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\_9198419.jpg"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_a675acca0d2b68e50396b989d96a7cc4.jpg.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\a675acca0d2b68e50396b989d96a7cc4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_enter_new_password.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\enter_new_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\drawable_registration_successful_account_successfully_created_concept_simple_modern_graphic_element_for_landing_page_ui_vector.png.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\drawable\\registration_successful_account_successfully_created_concept_simple_modern_graphic_element_for_landing_page_ui_vector.png"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\layout_create_branch.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\layout\\create_branch.xml"
+    },
+    {
+        "merged": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-debug-37:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\cmtd0\\.gradle\\daemon\\8.9\\com.example.madfinalproject.app-main-39:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]

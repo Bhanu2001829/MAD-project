@@ -1,0 +1,40 @@
+com.example.madfinalproject.app-play-services-base-18.5.0-0 C:\Users\cmtd0\.gradle\caches\8.9\transforms\068ebf03cb90d83fe11ef6386a283b98\transformed\play-services-base-18.5.0\res
+com.example.madfinalproject.app-savedstate-1.2.1-1 C:\Users\cmtd0\.gradle\caches\8.9\transforms\078bf6e183417b26735a58ead56d6a8d\transformed\savedstate-1.2.1\res
+com.example.madfinalproject.app-appcompat-resources-1.7.0-2 C:\Users\cmtd0\.gradle\caches\8.9\transforms\1965dbb2622620e5973343234544caf0\transformed\appcompat-resources-1.7.0\res
+com.example.madfinalproject.app-lifecycle-livedata-core-2.6.2-3 C:\Users\cmtd0\.gradle\caches\8.9\transforms\1d93a7fcaefd1b36e06c3fd58cedeb89\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.madfinalproject.app-lifecycle-viewmodel-savedstate-2.6.2-4 C:\Users\cmtd0\.gradle\caches\8.9\transforms\25aec232407403d3e6ed2b2693c54539\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.madfinalproject.app-viewpager2-1.0.0-5 C:\Users\cmtd0\.gradle\caches\8.9\transforms\2f902f69d2720ef77372c6184b416f87\transformed\viewpager2-1.0.0\res
+com.example.madfinalproject.app-emoji2-1.3.0-6 C:\Users\cmtd0\.gradle\caches\8.9\transforms\36e8785024120bdff0d6981ffd169cc3\transformed\emoji2-1.3.0\res
+com.example.madfinalproject.app-core-1.13.0-7 C:\Users\cmtd0\.gradle\caches\8.9\transforms\3e2c8501dd2a151ff74a2b761ae50b88\transformed\core-1.13.0\res
+com.example.madfinalproject.app-drawerlayout-1.1.1-8 C:\Users\cmtd0\.gradle\caches\8.9\transforms\45a7f411786478eb27766fee687906b4\transformed\drawerlayout-1.1.1\res
+com.example.madfinalproject.app-emoji2-views-helper-1.3.0-9 C:\Users\cmtd0\.gradle\caches\8.9\transforms\4b7efdb538a09324e09a9a4dbc57c6f8\transformed\emoji2-views-helper-1.3.0\res
+com.example.madfinalproject.app-firebase-common-21.0.0-10 C:\Users\cmtd0\.gradle\caches\8.9\transforms\4bf35c9a5d4d57f2e23d26209dbb7064\transformed\firebase-common-21.0.0\res
+com.example.madfinalproject.app-appcompat-1.7.0-11 C:\Users\cmtd0\.gradle\caches\8.9\transforms\55637422e36ac71b851521d3c7d52320\transformed\appcompat-1.7.0\res
+com.example.madfinalproject.app-constraintlayout-2.2.0-12 C:\Users\cmtd0\.gradle\caches\8.9\transforms\5bc45fa9477e683a9291fa924a855ca4\transformed\constraintlayout-2.2.0\res
+com.example.madfinalproject.app-lifecycle-runtime-2.6.2-13 C:\Users\cmtd0\.gradle\caches\8.9\transforms\641f5f0f1a3143cb88460578c57c4977\transformed\lifecycle-runtime-2.6.2\res
+com.example.madfinalproject.app-play-services-basement-18.4.0-14 C:\Users\cmtd0\.gradle\caches\8.9\transforms\65b0283849039d822c4e1d931bfc9212\transformed\play-services-basement-18.4.0\res
+com.example.madfinalproject.app-recyclerview-1.1.0-15 C:\Users\cmtd0\.gradle\caches\8.9\transforms\6f1349f2079bab45968796b0076d1725\transformed\recyclerview-1.1.0\res
+com.example.madfinalproject.app-play-services-maps-19.0.0-16 C:\Users\cmtd0\.gradle\caches\8.9\transforms\7d4ec248bb8fecce90652e7f970e8ece\transformed\play-services-maps-19.0.0\res
+com.example.madfinalproject.app-lifecycle-viewmodel-2.6.2-17 C:\Users\cmtd0\.gradle\caches\8.9\transforms\87b9659a2688ca37f889d31761b412b2\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.madfinalproject.app-annotation-experimental-1.4.0-18 C:\Users\cmtd0\.gradle\caches\8.9\transforms\8b58c0f04f550a696e26cb09e211542e\transformed\annotation-experimental-1.4.0\res
+com.example.madfinalproject.app-profileinstaller-1.4.0-19 C:\Users\cmtd0\.gradle\caches\8.9\transforms\8f629c25a991d0e0022272e65722ab70\transformed\profileinstaller-1.4.0\res
+com.example.madfinalproject.app-coordinatorlayout-1.1.0-20 C:\Users\cmtd0\.gradle\caches\8.9\transforms\9a37a69eaa23c1010fbac131a5cb2c44\transformed\coordinatorlayout-1.1.0\res
+com.example.madfinalproject.app-core-ktx-1.13.0-21 C:\Users\cmtd0\.gradle\caches\8.9\transforms\b75ce3fba235fb843fbf33095b6b70d1\transformed\core-ktx-1.13.0\res
+com.example.madfinalproject.app-lifecycle-livedata-2.6.2-22 C:\Users\cmtd0\.gradle\caches\8.9\transforms\c43e5933a77334a3c143182e40d02040\transformed\lifecycle-livedata-2.6.2\res
+com.example.madfinalproject.app-material-1.12.0-23 C:\Users\cmtd0\.gradle\caches\8.9\transforms\c73d1cc0ba7e84e3ce130e8d0aded0a1\transformed\material-1.12.0\res
+com.example.madfinalproject.app-fragment-1.5.4-24 C:\Users\cmtd0\.gradle\caches\8.9\transforms\d3b9ed22fc1f32b91a0b05db8683fd5e\transformed\fragment-1.5.4\res
+com.example.madfinalproject.app-startup-runtime-1.1.1-25 C:\Users\cmtd0\.gradle\caches\8.9\transforms\d9da903c551c974a00c9d83b960fb62d\transformed\startup-runtime-1.1.1\res
+com.example.madfinalproject.app-core-runtime-2.2.0-26 C:\Users\cmtd0\.gradle\caches\8.9\transforms\df7e1846dab1a28491cdf2b1873dca11\transformed\core-runtime-2.2.0\res
+com.example.madfinalproject.app-activity-1.9.3-27 C:\Users\cmtd0\.gradle\caches\8.9\transforms\ed680a8e49890ddc4996ed151594f58a\transformed\activity-1.9.3\res
+com.example.madfinalproject.app-dexter-6.2.3-28 C:\Users\cmtd0\.gradle\caches\8.9\transforms\ee9da60b0cf1d46e16b7939aedc61818\transformed\dexter-6.2.3\res
+com.example.madfinalproject.app-transition-1.5.0-29 C:\Users\cmtd0\.gradle\caches\8.9\transforms\f26d0a7388314c5e23c247e98ab3defd\transformed\transition-1.5.0\res
+com.example.madfinalproject.app-cardview-1.0.0-30 C:\Users\cmtd0\.gradle\caches\8.9\transforms\f7a0c4f6230a02993392fa9dc6c17f0b\transformed\cardview-1.0.0\res
+com.example.madfinalproject.app-lifecycle-process-2.6.2-31 C:\Users\cmtd0\.gradle\caches\8.9\transforms\fd62c31de5868f62e37157e1ddeb53dd\transformed\lifecycle-process-2.6.2\res
+com.example.madfinalproject.app-pngs-32 D:\NIBM Projects\Second Year\MAD\Shehan_Project\MADFinalProject\app\build\generated\res\pngs\debug
+com.example.madfinalproject.app-res-33 D:\NIBM Projects\Second Year\MAD\Shehan_Project\MADFinalProject\app\build\generated\res\processDebugGoogleServices
+com.example.madfinalproject.app-resValues-34 D:\NIBM Projects\Second Year\MAD\Shehan_Project\MADFinalProject\app\build\generated\res\resValues\debug
+com.example.madfinalproject.app-packageDebugResources-35 D:\NIBM Projects\Second Year\MAD\Shehan_Project\MADFinalProject\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.madfinalproject.app-packageDebugResources-36 D:\NIBM Projects\Second Year\MAD\Shehan_Project\MADFinalProject\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.madfinalproject.app-debug-37 D:\NIBM Projects\Second Year\MAD\Shehan_Project\MADFinalProject\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.madfinalproject.app-debug-38 D:\NIBM Projects\Second Year\MAD\Shehan_Project\MADFinalProject\app\src\debug\res
+com.example.madfinalproject.app-main-39 D:\NIBM Projects\Second Year\MAD\Shehan_Project\MADFinalProject\app\src\main\res

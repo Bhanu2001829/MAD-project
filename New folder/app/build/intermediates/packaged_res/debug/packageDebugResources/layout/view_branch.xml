@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycleView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context="com.example.madfinalproject.ViewBranchActivity">
+
+    <!-- Top LinearLayout for Header -->
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Logo Image -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="65dp"
+            android:layout_height="63dp"
+            android:src="@drawable/nimthera_app_l2_01" />
+
+        <!-- Menu Button -->
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="53dp"
+            android:layout_height="64dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="Menu"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <!-- Search Bar -->
+        <EditText
+            android:id="@+id/searchBar"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:background="@color/background"
+            android:hint="What are you looking for?" />
+
+        <!-- Notification Button -->
+        <ImageButton
+            android:id="@+id/notificationButton"
+            android:layout_width="54dp"
+            android:layout_height="63dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="Notifications"
+            android:src="@drawable/baseline_circle_notifications_24" />
+    </LinearLayout>
+
+    <!-- Title Section -->
+    <TextView
+        android:id="@+id/setMapLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/SecondaryColor"
+        android:padding="8dp"
+        android:text="Branches"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/setMapLocation"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigationView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/BranchContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Branch Name -->
+            <TextView
+                android:id="@+id/branchName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Branch Name"
+                android:textAlignment="center"
+                android:textColor="@color/thirdColor"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Email Address"
+                android:textColor="#030644"
+                android:textSize="23sp" />
+
+            <!-- Description -->
+
+            <!-- Location Button -->
+            <TextView
+                android:id="@+id/branch_addressEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Branch Address"
+                android:textColor="#030644"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/branch_contact_numberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Branch Contact Number"
+                android:textColor="#030644"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/map_view_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Map View"
+                android:textColor="#030644"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/postal_code_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Postal Code"
+                android:textColor="#030644"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/branchLocationBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/SecondaryColor"
+                android:text="Location"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        app:backgroundTint="@color/primaryColor"
+        app:itemIconSize="30dp"
+        app:itemIconTint="#FFF"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/admin_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
