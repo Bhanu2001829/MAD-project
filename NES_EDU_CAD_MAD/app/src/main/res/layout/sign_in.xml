@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/main_background"
+    android:id="@+id/recycleView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.madfinalproject.SignInActivity"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sidetop_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to EDU CAD"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_1"
+        android:textSize="28dp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/txt_1"/>
+
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="274dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/txt_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif"
+        android:text="Join with us and get your Experience"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/txt_2"
+        android:padding="30dp"
+        android:id="@+id/ly_1" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint=" Enter your User name"
+            android:paddingLeft="18dp"
+            android:id="@+id/edt_username" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint=" Enter your Email or phone number"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:id="@+id/edt_email"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint=" Create Password"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:id="@+id/edt_password"
+            android:ems="10"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/button_shape"
+            android:hint=" Conform Password"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="18dp"
+            android:id="@+id/edt_conform_password"
+            android:ems="10"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@id/ly_1"
+        android:layout_centerHorizontal="true"
+        android:width="300sp"
+        android:backgroundTint="@color/SecondaryColor"
+        android:text="sign_in"
+        android:textColor="@color/white"
+        android:textSize="19sp"  />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btn_3" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already hava a account?"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txt_sign_in"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:text="  login"
+            android:textColor="@color/SecondaryColor"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
