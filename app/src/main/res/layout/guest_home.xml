@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycleView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context="com.example.madfinalproject.GuestHomeActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        app:backgroundTint="@color/primaryColor"
+        app:itemIconSize="30dp"
+        app:itemIconTint="#FFF"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/admin_menu"
+        />
+
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="572dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <ImageButton
+            android:id="@+id/weblinkbtn"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:contentDescription="Go to NIBM"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.652"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Admin_title"
+            app:srcCompat="@drawable/a675acca0d2b68e50396b989d96a7cc4" />
+
+        <LinearLayout
+            android:id="@+id/menuLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cource_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/register_image_btn"
+                android:contentDescription="course"
+                app:srcCompat="@drawable/course" />
+
+            <ImageButton
+                android:id="@+id/Course1btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+
+                android:background="@drawable/register_image_btn"
+                android:contentDescription="branch"
+                app:srcCompat="@drawable/map" />
+
+            <ImageButton
+                android:id="@+id/register_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+
+                android:background="@drawable/register_image_btn"
+                android:contentDescription="register"
+                app:srcCompat="@drawable/register" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/C1courceId"
+            android:layout_width="361dp"
+            android:layout_height="51dp"
+            android:backgroundTint="@color/primaryColor"
+            android:text="Diploma in Computer Science"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/C2courceId"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/SecondaryColor"
+            android:text="HND in Computer Science"
+            android:textSize="20sp" />
+
+
+        <ImageButton
+            android:id="@+id/gClassRoom"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:contentDescription="Classroom"
+            app:srcCompat="@drawable/banner2" />
+
+        <ImageButton
+            android:id="@+id/reviewBtn"
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:contentDescription="Review"
+            app:srcCompat="@drawable/ratings" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="418dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/title_background"
+        android:backgroundTint="@color/primaryColor"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi "
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Nametxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name "
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="65dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="580dp"
+            android:src="@drawable/nimthera_app_l2_01"
+            app:srcCompat="@drawable/nimthera_app_l2_01" />
+
+        <ImageButton
+
+            android:id="@+id/menuButton"
+            android:layout_width="53dp"
+            android:layout_height="64dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="menu"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <EditText
+            android:id="@+id/searchBar"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="242dp"
+            android:layout_height="64dp"
+            android:background="@color/background"
+            android:hint="     What are you looking for" />
+
+        <ImageButton
+            android:id="@+id/notificationButton"
+            android:layout_width="54dp"
+            android:layout_height="63dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="Notifications"
+            android:src="@drawable/baseline_circle_notifications_24wite"
+            tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycleView"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_background"
+    android:layout_height="match_parent"
+    tools:context="com.example.madfinalproject.CourseRegistrationActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="413dp"
+
+        android:layout_height="63dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="65dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="580dp"
+            android:src="@drawable/nimthera_app_l2_01"
+            app:srcCompat="@drawable/nimthera_app_l2_01" />
+
+        <ImageButton
+
+            android:id="@+id/menuButton"
+            android:layout_width="53dp"
+            android:layout_height="64dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="menu"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <EditText
+            android:id="@+id/searchBar"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="242dp"
+            android:layout_height="64dp"
+            android:background="@color/background"
+            android:hint="     What are you looking for" />
+
+        <ImageButton
+            android:id="@+id/notificationButton"
+            android:layout_width="54dp"
+            android:layout_height="63dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="Notifications"
+            android:src="@drawable/baseline_circle_notifications_24wite"
+            tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="739dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="35px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/createuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="Create Admin User"
+
+                android:textColor="@color/primaryColor"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="First Name"
+                android:textColor="@color/thirdColor"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="263dp"
+                tools:layout_editor_absoluteY="244dp" />
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:ems="10"
+                android:hint="Enter your First name"
+                android:inputType="text"
+                android:text=""
+                android:textColorHint="#888888"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="145dp" />
+
+            <TextView
+                android:id="@+id/lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Name"
+                android:textColor="@color/thirdColor"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="81dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:ems="10"
+                android:hint="Enter your Last name"
+                android:inputType="text"
+                android:text=""
+                android:textColorHint="#888888"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="640dp" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textColor="@color/thirdColor"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="343dp" />
+
+
+            <EditText
+                android:id="@+id/nic"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:ems="10"
+                android:hint="simple and Unique"
+                android:inputType="text"
+                android:textColorHint="#888888"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="390dp" />
+
+            <TextView
+                android:id="@+id/ldbirth"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:text="Date of Create"
+                android:textColor="@color/thirdColor"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="81dp"
+                tools:layout_editor_absoluteY="269dp" />
+
+
+            <EditText
+                android:id="@+id/birthday"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:ems="10"
+                android:hint="dd/mm/yyyy"
+                android:inputType="date"
+                android:textColorHint="#888888"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="390dp" />
+
+            <TextView
+                android:id="@+id/lemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/thirdColor"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="256dp"
+                tools:layout_editor_absoluteY="343dp" />
+
+            <EditText
+                android:id="@+id/emailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:ems="10"
+                android:hint="Enter your Email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#888888"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="694dp" />
+
+
+            <TextView
+                android:id="@+id/createAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Created admin name"
+                android:textColor="@color/thirdColor"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="92dp"
+                tools:layout_editor_absoluteY="305dp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:ems="10"
+                android:hint="Admin name"
+                android:inputType="text"
+                android:textColorHint="#888888"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="390dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+
+            <Button
+                android:id="@+id/addUser"
+                android:layout_width="224dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/SecondaryColor"
+                android:text="Create User"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="230dp"
+                tools:layout_editor_absoluteY="193dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        app:backgroundTint="@color/primaryColor"
+        app:itemIconSize="30dp"
+        app:itemIconTint="#FFF"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/admin_menu" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

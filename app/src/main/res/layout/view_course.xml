@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycleView"
+    android:background="@drawable/main_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.madfinalproject.ViewCourseActivity">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        app:backgroundTint="@color/primaryColor"
+        app:itemIconSize="28dp"
+        app:itemIconTint="#FFF"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/admin_menu" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="413dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="65dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="580dp"
+            android:src="@drawable/nimthera_app_l2_01"
+            app:srcCompat="@drawable/nimthera_app_l2_01" />
+
+        <ImageButton
+
+            android:id="@+id/profilebtn"
+            android:layout_width="53dp"
+            android:layout_height="64dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="menu"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <EditText
+            android:id="@+id/searchBar"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="242dp"
+            android:layout_height="64dp"
+            android:background="@color/background"
+            android:hint="     What are you looking for" />
+
+        <ImageButton
+            android:id="@+id/notificationButton"
+            android:layout_width="54dp"
+            android:layout_height="63dp"
+            android:background="@color/primaryColor"
+            android:contentDescription="Notifications"
+            android:src="@drawable/baseline_circle_notifications_24wite"
+            tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/CouresId"
+        android:layout_width="418dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/SecondaryColor"
+        android:text="Courses"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+    <ScrollView
+        android:layout_width="417dp"
+        android:layout_height="661dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="notification_panel"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CouresId">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ComputerScience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/computerSciencetxt"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Computer Science"
+                    android:textAlignment="center"
+                    android:textColor="@color/thirdColor"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/couresId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:background="@drawable/button_shape"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/lcourse_name"
+                                android:layout_width="293dp"
+                                android:layout_height="wrap_content"
+
+                                android:text="Courese: Diploma in Data System"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                tools:layout_editor_absoluteX="263dp"
+                                tools:layout_editor_absoluteY="244dp" />
+
+
+                            <TextView
+                                android:id="@+id/Categoty"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Ctegory: Computer Science"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="81dp"
+                                tools:layout_editor_absoluteY="243dp" />
+
+                            <TextView
+                                android:id="@+id/badge"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Badge : 2025F1"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="81dp"
+                                tools:layout_editor_absoluteY="243dp" />
+
+
+                            <TextView
+                                android:id="@+id/Duration"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Duration: 1 Year Full Time"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="81dp"
+                                tools:layout_editor_absoluteY="269dp" />
+
+
+                            <TextView
+                                android:id="@+id/lbranch"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Branch: Colombo"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="92dp"
+                                tools:layout_editor_absoluteY="343dp" />
+
+
+                            <TextView
+                                android:id="@+id/lstarting_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Start Date: 01/03/2025"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="92dp"
+                                tools:layout_editor_absoluteY="305dp" />
+
+
+                            <TextView
+                                android:id="@+id/lclosing_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Closing Date: 01/03/2026"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="263dp"
+                                tools:layout_editor_absoluteY="292dp" />
+
+
+                            <TextView
+                                android:id="@+id/courseFee"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Course Fee: 300 000/="
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="81dp"
+                                tools:layout_editor_absoluteY="243dp" />
+
+                            <TextView
+                                android:id="@+id/course_discription"
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_margin="5px"
+                                android:text="Description: \nData Science,Programing Fundamentals,DataStructure.etc"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp" />
+
+                            <LinearLayout
+                                android:id="@+id/Review"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/imageView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/review_gold" />
+
+                                <TextView
+                                    android:id="@+id/textView4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:text="100 credits"
+                                    android:textSize="24sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Business"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/fourthColor"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Businesstext"
+                    android:layout_width="293dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Business Studies"
+                    android:textAlignment="center"
+                    android:textColor="@color/thirdColor"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/BcouresId1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="15dp"
+                            android:background="@drawable/button_shape"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/Bcourse_name1"
+                                android:layout_width="293dp"
+                                android:layout_height="wrap_content"
+
+                                android:text="Courese: Diploma in BS"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                tools:layout_editor_absoluteX="263dp"
+                                tools:layout_editor_absoluteY="244dp" />
+
+                            <TextView
+                                android:id="@+id/Bbadge1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Badge : 2025F1"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="81dp"
+                                tools:layout_editor_absoluteY="243dp" />
+
+
+                            <TextView
+                                android:id="@+id/B1Duration"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Duration: 1 Year Full Time"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="81dp"
+                                tools:layout_editor_absoluteY="269dp" />
+
+
+                            <TextView
+                                android:id="@+id/B1branch"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Branch: Colombo"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="92dp"
+                                tools:layout_editor_absoluteY="343dp" />
+
+
+                            <TextView
+                                android:id="@+id/B1starting_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Start Date: 01/03/2025"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="92dp"
+                                tools:layout_editor_absoluteY="305dp" />
+
+
+                            <TextView
+                                android:id="@+id/B1closing_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Closing Date: 01/03/2026"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="263dp"
+                                tools:layout_editor_absoluteY="292dp" />
+
+
+                            <TextView
+                                android:id="@+id/B1courseFee"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Course Fee: 200 000/="
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp"
+                                tools:layout_editor_absoluteX="81dp"
+                                tools:layout_editor_absoluteY="243dp" />
+
+                            <TextView
+                                android:id="@+id/B1course_discription"
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp"
+                                android:layout_margin="5px"
+                                android:text="Description: \nData Science,Business Fundamentals,Business Structure.etc"
+                                android:textColor="@color/thirdColor"
+                                android:textSize="14sp" />
+
+                            <LinearLayout
+                                android:id="@+id/B1Review"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/B1credits"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:srcCompat="@drawable/review_gold" />
+
+                                <TextView
+                                    android:id="@+id/B1creditstext"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="5dp"
+                                    android:text="120 credits"
+                                    android:textSize="24sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
