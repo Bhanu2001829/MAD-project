@@ -33,7 +33,7 @@
             android:layout_width="53dp"
             android:layout_height="64dp"
             android:background="@color/primaryColor"
-            android:contentDescription="menu"
+            android:contentDescription="@string/menu"
             android:src="@drawable/baseline_account_circle_24" />
 
         <EditText
@@ -42,14 +42,14 @@
             android:layout_width="242dp"
             android:layout_height="64dp"
             android:background="@color/background"
-            android:hint="     What are you looking for" />
+            android:hint="@string/what_are_you_looking_for" />
 
         <ImageButton
             android:id="@+id/notificationButton"
             android:layout_width="54dp"
             android:layout_height="63dp"
             android:background="@color/primaryColor"
-            android:contentDescription="Notifications"
+            android:contentDescription="@string/notifications"
             android:src="@drawable/baseline_circle_notifications_24wite"
             tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
 
@@ -98,7 +98,7 @@
                 android:layout_height="41dp"
                 android:layout_marginTop="8dp"
                 android:background="@color/SecondaryColor"
-                android:text="Student"
+                android:text="@string/student"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="24sp"
@@ -121,7 +121,7 @@
                     android:id="@+id/lcourse_name"
                     android:layout_width="140dp"
                     android:layout_height="wrap_content"
-                    android:text="Course Name"
+                    android:text="@string/course_name"
                     android:textColor="@color/thirdColor"
                     android:textSize="19sp"
                     tools:layout_editor_absoluteX="263dp"
@@ -134,7 +134,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/button_shape"
                     android:ems="10"
-                    android:hint="  Enter Cource Name"
+                    android:hint="@string/enter_course_name"
                     android:inputType="text"
                     android:text=""
                     android:textColorHint="#888888"
@@ -145,7 +145,7 @@
                     android:id="@+id/category"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Category"
+                    android:text="@string/category"
                     android:textColor="@color/thirdColor"
                     android:textSize="19sp"
                     tools:layout_editor_absoluteX="92dp"
@@ -158,7 +158,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/button_shape"
                     android:ems="10"
-                    android:hint="National Identity Card Number"
+                    android:hint="@string/national_identity_card_number"
                     android:inputType="date"
                     android:textColorHint="#888888"
                     tools:layout_editor_absoluteX="40dp"
@@ -168,7 +168,7 @@
                     android:id="@+id/badge"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Badge"
+                    android:text="@string/batch"
                     android:textColor="@color/thirdColor"
                     android:textSize="19sp"
                     tools:layout_editor_absoluteX="92dp"
@@ -181,7 +181,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/button_shape"
                     android:ems="10"
-                    android:hint="National Identity Card Number"
+                    android:hint="@string/national_identity_card_number"
                     android:inputType="date"
                     android:textColorHint="#888888"
                     tools:layout_editor_absoluteX="40dp"
@@ -194,7 +194,7 @@
                     android:layout_gravity="center"
                     android:layout_margin="15dp"
                     android:backgroundTint="@color/primaryColor"
-                    android:text="Filter"
+                    android:text="@string/filter"
                     android:textColor="@color/white"
                     android:textSize="24sp">
 
@@ -225,7 +225,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="SudentID"
+                            android:text="@string/student_id"
                             android:textColor="@android:color/white"
                             android:textStyle="bold" />
 
@@ -233,7 +233,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="Name"
+                            android:text="@string/name"
                             android:textColor="@android:color/white"
                             android:textStyle="bold" />
 
@@ -241,7 +241,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="NIC"
+                            android:text="@string/national_identity_card_number"
                             android:textColor="@android:color/white"
                             android:textStyle="bold" />
 
@@ -249,7 +249,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="Address"
+                            android:text="@string/address"
                             android:textColor="@android:color/white"
                             android:textStyle="bold" />
 
@@ -257,7 +257,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="Email"
+                            android:text="@string/email"
                             android:textColor="@android:color/white"
                             android:textStyle="bold" />
 
@@ -265,7 +265,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="Gender"
+                            android:text="@string/gender"
                             android:textColor="@android:color/white"
                             android:textStyle="bold" />
 
@@ -273,7 +273,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="Contact No"
+                            android:text="@string/contact_number"
                             android:textColor="@android:color/white"
                             android:textStyle="bold" />
 
@@ -281,7 +281,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="CourseID"
+                            android:text="@string/course_id"
                             android:textColor="@android:color/white"
                             android:textStyle="bold" />
                     </TableRow>
@@ -314,19 +314,19 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="Address" />
+                            android:text="@string/address" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="email@gmail.com" />
+                            android:text="@string/example_email_com" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:padding="8dp"
-                            android:text="Male" />
+                            android:text="@string/male" />
 
                         <TextView
                             android:layout_width="wrap_content"

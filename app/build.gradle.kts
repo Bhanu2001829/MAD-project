@@ -65,6 +65,9 @@ dependencies {
     implementation("com.google.firebase:firebase-storage:21.0.1") // Ensure latest Firebase Storage version
     implementation("com.google.android.gms:play-services-tasks:18.0.2")
 
+    //AppCompat
+    implementation ("androidx.appcompat:appcompat:1.6.1")
+
 
 
 }

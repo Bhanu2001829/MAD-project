@@ -33,7 +33,7 @@
             android:layout_width="53dp"
             android:layout_height="64dp"
             android:background="@color/primaryColor"
-            android:contentDescription="menu"
+            android:contentDescription="@string/menu"
             android:src="@drawable/baseline_account_circle_24" />
 
         <EditText
@@ -42,14 +42,14 @@
             android:layout_width="242dp"
             android:layout_height="64dp"
             android:background="@color/background"
-            android:hint="     What are you looking for" />
+            android:hint="@string/what_are_you_looking_for" />
 
         <ImageButton
             android:id="@+id/notificationButton"
             android:layout_width="54dp"
             android:layout_height="63dp"
             android:background="@color/primaryColor"
-            android:contentDescription="Notifications"
+            android:contentDescription="@string/notifications"
             android:src="@drawable/baseline_circle_notifications_24wite"
             tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
 
@@ -79,7 +79,7 @@
         android:layout_height="41dp"
         android:layout_marginTop="8dp"
         android:background="@color/SecondaryColor"
-        android:text="Administrator"
+        android:text="@string/administrator"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -97,7 +97,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="Go to NIBM"
+        android:contentDescription="@string/go_to_nibm"
         app:layout_constraintTop_toBottomOf="@+id/Admin_title"
         app:srcCompat="@drawable/a675acca0d2b68e50396b989d96a7cc4" />
 
@@ -125,7 +125,7 @@
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/register_image_btn"
-                android:contentDescription="user"
+                android:contentDescription="@string/user"
                 app:srcCompat="@drawable/user" />
 
             <ImageButton
@@ -135,7 +135,7 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/register_image_btn"
-                android:contentDescription="addcourse"
+                android:contentDescription="@string/addcourse"
                 app:srcCompat="@drawable/add_course" />
 
             <ImageButton
@@ -144,7 +144,7 @@
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/register_image_btn"
-                android:contentDescription="branch"
+                android:contentDescription="@string/branch"
                 app:srcCompat="@drawable/add_branch" />
 
         </LinearLayout>
@@ -160,7 +160,7 @@
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/register_image_btn"
-                android:contentDescription="course"
+                android:contentDescription="@string/course"
                 app:srcCompat="@drawable/course" />
 
             <ImageButton
@@ -169,7 +169,7 @@
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/register_image_btn"
-                android:contentDescription="branch"
+                android:contentDescription="@string/branch"
                 app:srcCompat="@drawable/map" />
 
             <ImageButton
@@ -178,7 +178,7 @@
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/register_image_btn"
-                android:contentDescription="branch"
+                android:contentDescription="@string/branch"
                 app:srcCompat="@drawable/create_admin" />
         </LinearLayout>
 
@@ -188,14 +188,14 @@
             android:layout_height="111dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="5dp"
-            android:contentDescription="Classroom"
+            android:contentDescription="@string/classroom"
             app:srcCompat="@drawable/banner2" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Updated Rating Of This App"
+            android:text="@string/updated_rating_of_this_app"
             android:textAlignment="center"
             android:textColor="@color/primaryColor"
             android:background="@color/white"

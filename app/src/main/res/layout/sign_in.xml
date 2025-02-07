@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to EDU CAD"
+        android:text="@string/welcome_to_edu_cad"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/img_1"
         android:textSize="28dp"
@@ -37,7 +37,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
         android:fontFamily="sans-serif"
-        android:text="Join with us and get your Experience"
+        android:text="@string/join_with_us_and_get_your_experience"
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="italic" />
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
-            android:hint=" Enter your User name"
+            android:hint="@string/enter_your_user_name"
             android:paddingLeft="18dp"
             android:id="@+id/edt_username" />
 
@@ -62,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
-            android:hint=" Enter your Email or phone number"
+            android:hint="@string/enter_your_email_or_phone_number"
             android:layout_marginTop="10dp"
             android:paddingLeft="18dp"
             android:id="@+id/edt_email"/>
@@ -72,7 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
-            android:hint=" Create Password"
+            android:hint="@string/create_password"
             android:layout_marginTop="10dp"
             android:paddingLeft="18dp"
             android:id="@+id/edt_password"
@@ -83,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="57dp"
             android:background="@drawable/button_shape"
-            android:hint=" Conform Password"
+            android:hint="@string/confrim_password"
             android:layout_marginTop="10dp"
             android:paddingLeft="18dp"
             android:id="@+id/edt_conform_password"
@@ -100,7 +100,7 @@
         android:layout_centerHorizontal="true"
         android:width="300sp"
         android:backgroundTint="@color/SecondaryColor"
-        android:text="sign_in"
+        android:text="@string/sign_up"
         android:textColor="@color/white"
         android:textSize="19sp"  />
     <LinearLayout
@@ -113,7 +113,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already hava a account?"
+            android:text="@string/already_hava_a_account"
             android:textSize="20sp"/>
 
         <TextView
@@ -121,7 +121,7 @@
             android:layout_width="71dp"
             android:layout_height="match_parent"
             android:fontFamily="sans-serif"
-            android:text="  login"
+            android:text="@string/log_in"
             android:textColor="@color/SecondaryColor"
             android:textSize="20sp" />
 
@@ -137,7 +137,7 @@
         android:layout_marginStart="144dp"
         android:layout_marginEnd="134dp"
         android:layout_marginBottom="55dp"
-        android:text="2MBS Software 2025"
+        android:text="@string/_2mbs_software_2025"
         android:textColor="#888888"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

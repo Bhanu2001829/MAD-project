@@ -104,7 +104,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="TitleID"
+                    android:text="@string/title_id"
                     android:textColor="@color/thirdColor"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -113,7 +113,7 @@
                     android:id="@+id/notification_details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="DetailsID"
+                    android:text="@string/details_id"
                     android:textColor="@color/thirdColor"
                     android:textSize="20sp" />
             </LinearLayout>

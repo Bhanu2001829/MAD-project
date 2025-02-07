@@ -33,7 +33,7 @@
             android:layout_width="53dp"
             android:layout_height="64dp"
             android:background="@color/primaryColor"
-            android:contentDescription="menu"
+            android:contentDescription="@string/menu"
             android:src="@drawable/baseline_account_circle_24" />
 
         <EditText
@@ -42,14 +42,14 @@
             android:layout_width="242dp"
             android:layout_height="64dp"
             android:background="@color/background"
-            android:hint="     What are you looking for" />
+            android:hint="@string/what_are_you_looking_for" />
 
         <ImageButton
             android:id="@+id/notificationButton"
             android:layout_width="54dp"
             android:layout_height="63dp"
             android:background="@color/primaryColor"
-            android:contentDescription="Notifications"
+            android:contentDescription="@string/notifications"
             android:src="@drawable/baseline_circle_notifications_24wite"
             tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
 
@@ -98,7 +98,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Add New Branch"
+                android:text="@string/add_new_branch"
                 android:background="@color/white"
                 android:textColor="@color/thirdColor"
                 android:textSize="20dp"
@@ -108,7 +108,7 @@
                 android:id="@+id/branchName"
                 android:layout_width="143dp"
                 android:layout_height="wrap_content"
-                android:text="Branch Name"
+                android:text="@string/branch_name"
                 android:textColor="@color/thirdColor"
                 android:textSize="19sp"
                 tools:layout_editor_absoluteX="263dp"
@@ -121,7 +121,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/button_shape"
                 android:ems="10"
-                android:hint="Enter branch name"
+                android:hint="@string/enter_branch_name"
                 android:inputType="text"
                 android:text=""
                 android:textColorHint="#888888"
@@ -132,7 +132,7 @@
                 android:id="@+id/llname"
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
-                android:text="Address"
+                android:text="@string/address"
                 android:textColor="@color/thirdColor"
                 android:textSize="19sp"
                 tools:layout_editor_absoluteX="81dp"
@@ -145,7 +145,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/button_shape"
                 android:ems="10"
-                android:hint="Enter address name"
+                android:hint="@string/enter_address_name"
                 android:inputType="text"
                 android:text=""
                 android:textColorHint="#888888"
@@ -156,7 +156,7 @@
                 android:id="@+id/llocation"
                 android:layout_width="109dp"
                 android:layout_height="23dp"
-                android:text="Location"
+                android:text="@string/location"
                 android:textColor="@color/thirdColor"
                 android:textSize="19sp"
                 tools:layout_editor_absoluteX="81dp"
@@ -189,7 +189,7 @@
                     android:layout_margin="15px"
                     android:background="@drawable/button_shape"
                     android:backgroundTint="@color/white"
-                    android:contentDescription="map" />
+                    android:contentDescription="@string/map" />
 
                 <Button
                     android:id="@+id/button"
@@ -198,7 +198,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:backgroundTint="@color/SecondaryColor"
-                    android:text="Set Map Location"
+                    android:text="@string/set_map_location"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     tools:ignore="TouchTargetSizeCheck" />
@@ -208,7 +208,7 @@
                 android:id="@+id/postalCode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Postal Code"
+                android:text="@string/postal_code"
                 android:textColor="@color/thirdColor"
                 android:textSize="19sp"
                 tools:layout_editor_absoluteX="92dp"
@@ -221,7 +221,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/button_shape"
                 android:ems="10"
-                android:hint="Enter Postal Code"
+                android:hint="@string/enter_postal_code"
                 android:inputType="text"
                 android:textColorHint="#888888"
                 tools:layout_editor_absoluteX="40dp"
@@ -231,7 +231,7 @@
                 android:id="@+id/lcontact"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Contact number"
+                android:text="@string/contact_number"
                 android:textColor="@color/thirdColor"
                 android:textSize="19sp"
                 tools:layout_editor_absoluteX="263dp"
@@ -268,7 +268,7 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/button_shape"
                 android:ems="10"
-                android:hint="Enter your Email"
+                android:hint="@string/enter_your_email"
                 android:inputType="textEmailAddress"
                 android:textColorHint="#888888"
                 tools:layout_editor_absoluteX="40dp"
@@ -281,7 +281,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:backgroundTint="@color/SecondaryColor"
-                android:text="Add Branch"
+                android:text="@string/add_branch"
                 android:textColor="@color/white"
                 android:textSize="19sp"
                 tools:layout_editor_absoluteX="230dp"

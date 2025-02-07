@@ -49,7 +49,7 @@
             android:layout_width="53dp"
             android:layout_height="64dp"
             android:background="@color/primaryColor"
-            android:contentDescription="menu"
+            android:contentDescription="@string/menu"
             android:src="@drawable/baseline_account_circle_24" />
 
         <EditText
@@ -58,14 +58,14 @@
             android:layout_width="242dp"
             android:layout_height="64dp"
             android:background="@color/background"
-            android:hint="     What are you looking for" />
+            android:hint="@string/what_are_you_looking_for" />
 
         <ImageButton
             android:id="@+id/notificationButton"
             android:layout_width="54dp"
             android:layout_height="63dp"
             android:background="@color/primaryColor"
-            android:contentDescription="Notifications"
+            android:contentDescription="@string/notifications"
             android:src="@drawable/baseline_circle_notifications_24wite"
             tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
 
@@ -77,7 +77,7 @@
         android:layout_height="41dp"
         android:layout_marginTop="8dp"
         android:background="@color/SecondaryColor"
-        android:text="Courses"
+        android:text="@string/course"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -94,7 +94,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="12dp"
-        android:contentDescription="notification_panel"
+        android:contentDescription="@string/notification_panel"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,7 +118,7 @@
                     android:layout_width="293dp"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:text="Computer Science"
+                    android:text="@string/computer_science"
                     android:textAlignment="center"
                     android:textColor="@color/thirdColor"
                     android:textSize="24sp"
@@ -149,7 +149,7 @@
                                 android:layout_width="293dp"
                                 android:layout_height="wrap_content"
 
-                                android:text="Courese: Diploma in Data System"
+                                android:text="@string/courese_diploma_in_data_system"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
@@ -161,7 +161,7 @@
                                 android:id="@+id/Categoty"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Ctegory: Computer Science"
+                                android:text="@string/category_computer_science"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="81dp"
@@ -171,7 +171,7 @@
                                 android:id="@+id/badge"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Badge : 2025F1"
+                                android:text="@string/badge_2025f1"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="81dp"
@@ -182,7 +182,7 @@
                                 android:id="@+id/Duration"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Duration: 1 Year Full Time"
+                                android:text="@string/duration_1_year_full_time"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="81dp"
@@ -193,7 +193,7 @@
                                 android:id="@+id/lbranch"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Branch: Colombo"
+                                android:text="@string/branch_colombo"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="92dp"
@@ -204,7 +204,7 @@
                                 android:id="@+id/lstarting_date"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Start Date: 01/03/2025"
+                                android:text="@string/start_date_01_03_2025"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="92dp"
@@ -215,7 +215,7 @@
                                 android:id="@+id/lclosing_date"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Closing Date: 01/03/2026"
+                                android:text="@string/closing_date_01_03_2026"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="263dp"
@@ -226,7 +226,7 @@
                                 android:id="@+id/courseFee"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Course Fee: 300 000/="
+                                android:text="@string/course_fee_300_000"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="81dp"
@@ -237,7 +237,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="70dp"
                                 android:layout_margin="5px"
-                                android:text="Description: \nData Science,Programing Fundamentals,DataStructure.etc"
+                                android:text="@string/description_ndata_science_programing_fundamentals_datastructure_etc"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp" />
 
@@ -258,7 +258,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:padding="5dp"
-                                    android:text="100 credits"
+                                    android:text="@string/_100_credits"
                                     android:textSize="24sp" />
                             </LinearLayout>
 
@@ -281,7 +281,7 @@
                     android:layout_width="293dp"
                     android:layout_height="wrap_content"
                     android:padding="5dp"
-                    android:text="Business Studies"
+                    android:text="@string/business_studies"
                     android:textAlignment="center"
                     android:textColor="@color/thirdColor"
                     android:textSize="24sp"
@@ -312,7 +312,7 @@
                                 android:layout_width="293dp"
                                 android:layout_height="wrap_content"
 
-                                android:text="Courese: Diploma in BS"
+                                android:text="@string/courese_diploma_in_bs"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
@@ -323,7 +323,7 @@
                                 android:id="@+id/Bbadge1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Badge : 2025F1"
+                                android:text="@string/badge_2025f1"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="81dp"
@@ -334,7 +334,7 @@
                                 android:id="@+id/B1Duration"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Duration: 1 Year Full Time"
+                                android:text="@string/duration_1_year_full_time"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="81dp"
@@ -345,7 +345,7 @@
                                 android:id="@+id/B1branch"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Branch: Colombo"
+                                android:text="@string/branch_colombo"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="92dp"
@@ -356,7 +356,7 @@
                                 android:id="@+id/B1starting_date"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Start Date: 01/03/2025"
+                                android:text="@string/start_date_01_03_2025"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="92dp"
@@ -367,7 +367,7 @@
                                 android:id="@+id/B1closing_date"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Closing Date: 01/03/2026"
+                                android:text="@string/closing_date_01_03_2026"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="263dp"
@@ -378,7 +378,7 @@
                                 android:id="@+id/B1courseFee"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Course Fee: 200 000/="
+                                android:text="@string/course_fee_200_000"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp"
                                 tools:layout_editor_absoluteX="81dp"
@@ -389,7 +389,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="70dp"
                                 android:layout_margin="5px"
-                                android:text="Description: \nData Science,Business Fundamentals,Business Structure.etc"
+                                android:text="@string/description_ndata_science_business_fundamentals_business_structure_etc"
                                 android:textColor="@color/thirdColor"
                                 android:textSize="14sp" />
 
@@ -410,7 +410,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:padding="5dp"
-                                    android:text="120 credits"
+                                    android:text="@string/_120_credits"
                                     android:textSize="24sp" />
                             </LinearLayout>
 

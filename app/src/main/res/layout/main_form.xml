@@ -18,7 +18,7 @@
         android:layout_marginStart="144dp"
         android:layout_marginEnd="134dp"
         android:layout_marginBottom="72dp"
-        android:text="2MBS Software 2025"
+        android:text="@string/_2mbs_software_2025"
         android:textColor="#888888" />
 
     <ImageView
@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/img_2"
-        android:text="NES EDU CAD"
+        android:text="@string/nes_edu_cad"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:textSize="40dp"
@@ -61,7 +61,7 @@
         android:fontFamily=""
         android:gravity="center"
         android:padding="30dp"
-        android:text="get your course of us and win the life and careeer path"
+        android:text="@string/get_your_course_of_us_and_win_the_life_and_careeer_path"
         android:textColor="@color/black"
 
         android:textSize="16sp" />
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:width="300dp"
-        android:text="Login"
+        android:text="@string/login"
         android:layout_below="@+id/txt_2"
         android:backgroundTint="@color/SecondaryColor"
         android:layout_centerHorizontal="true"
@@ -92,7 +92,7 @@
         android:backgroundTint="@color/SecondaryColor"
         android:fontFamily=""
         android:shadowColor="@color/black"
-        android:text="Sign in"
+        android:text="@string/sign_in"
         android:textColor="@color/white"
         android:textSize="15sp"
 

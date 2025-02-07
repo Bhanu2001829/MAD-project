@@ -33,7 +33,7 @@
             android:layout_width="53dp"
             android:layout_height="64dp"
             android:background="@color/primaryColor"
-            android:contentDescription="menu"
+            android:contentDescription="@string/menu"
             android:src="@drawable/baseline_account_circle_24" />
 
         <EditText
@@ -42,14 +42,14 @@
             android:layout_width="242dp"
             android:layout_height="64dp"
             android:background="@color/background"
-            android:hint="     What are you looking for" />
+            android:hint="@string/what_are_you_looking_for" />
 
         <ImageButton
             android:id="@+id/notificationButton"
             android:layout_width="54dp"
             android:layout_height="63dp"
             android:background="@color/primaryColor"
-            android:contentDescription="Notifications"
+            android:contentDescription="@string/notifications"
             android:src="@drawable/baseline_circle_notifications_24wite"
             tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
 
@@ -61,7 +61,7 @@
         android:layout_height="41dp"
         android:layout_marginTop="8dp"
         android:background="@color/SecondaryColor"
-        android:text="Paste Your MapView On Search Bar"
+        android:text="@string/paste_your_mapview_on_search_bar"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20sp"

@@ -32,7 +32,7 @@
             android:layout_width="48dp"
             android:layout_height="match_parent"
             android:background="@color/primaryColor"
-            android:contentDescription="Menu"
+            android:contentDescription="@string/menu"
             android:src="@drawable/baseline_account_circle_24" />
 
         <EditText
@@ -41,7 +41,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@color/background"
-            android:hint="What are you looking for"
+            android:hint="@string/what_are_you_looking_for"
             android:paddingStart="10dp"
             android:paddingEnd="10dp" />
 
@@ -50,7 +50,7 @@
             android:layout_width="48dp"
             android:layout_height="match_parent"
             android:background="@color/primaryColor"
-            android:contentDescription="Notifications"
+            android:contentDescription="@string/notifications"
             android:src="@drawable/baseline_circle_notifications_24wite" />
     </LinearLayout>
 
@@ -62,7 +62,7 @@
         android:layout_marginTop="8dp"
         android:background="@color/SecondaryColor"
         android:gravity="center"
-        android:text="Branches"
+        android:text="@string/branch"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -99,7 +99,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Branch Name"
+                    android:text="@string/branch_name"
                     android:textColor="@color/thirdColor"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -109,7 +109,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="example@email.com"
+                    android:text="@string/example_email_com"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -118,7 +118,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Description of the branch"
+                    android:text="@string/description_of_the_branch"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -129,7 +129,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="16dp"
                     android:backgroundTint="@color/SecondaryColor"
-                    android:text="Location"
+                    android:text="@string/location"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
             </LinearLayout>

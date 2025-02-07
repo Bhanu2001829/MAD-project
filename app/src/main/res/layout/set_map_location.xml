@@ -34,7 +34,7 @@
             android:layout_width="53dp"
             android:layout_height="64dp"
             android:background="@color/primaryColor"
-            android:contentDescription="menu"
+            android:contentDescription="@string/menu"
             android:src="@drawable/baseline_account_circle_24" />
 
         <EditText
@@ -43,14 +43,14 @@
             android:layout_width="242dp"
             android:layout_height="64dp"
             android:background="@color/background"
-            android:hint="     What are you looking for" />
+            android:hint="@string/what_are_you_looking_for" />
 
         <ImageButton
             android:id="@+id/notificationButton"
             android:layout_width="54dp"
             android:layout_height="63dp"
             android:background="@color/primaryColor"
-            android:contentDescription="Notifications"
+            android:contentDescription="@string/notifications"
             android:src="@drawable/baseline_circle_notifications_24wite"
             tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
 
@@ -62,7 +62,7 @@
         android:layout_height="41dp"
         android:layout_marginTop="8dp"
         android:background="@color/SecondaryColor"
-        android:text="Set Map Location"
+        android:text="@string/set_map_location"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -118,7 +118,7 @@
             android:id="@+id/fragment_map"
             class="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
-            android:contentDescription="map"
+            android:contentDescription="@string/map"
             android:layout_height="617dp" />
 
         <Button
@@ -128,7 +128,7 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:backgroundTint="@color/SecondaryColor"
-            android:text="Select Location"
+            android:text="@string/select_location"
             android:textColor="@color/white"
             android:textSize="20sp"
             tools:ignore="TouchTargetSizeCheck" />

@@ -34,7 +34,7 @@
             android:layout_width="53dp"
             android:layout_height="64dp"
             android:background="@color/primaryColor"
-            android:contentDescription="menu"
+            android:contentDescription="@string/menu"
             android:src="@drawable/baseline_account_circle_24" />
 
         <EditText
@@ -43,14 +43,14 @@
             android:layout_width="242dp"
             android:layout_height="64dp"
             android:background="@color/background"
-            android:hint="     What are you looking for" />
+            android:hint="@string/what_are_you_looking_for" />
 
         <ImageButton
             android:id="@+id/notificationButton"
             android:layout_width="54dp"
             android:layout_height="63dp"
             android:background="@color/primaryColor"
-            android:contentDescription="Notifications"
+            android:contentDescription="@string/notifications"
             android:src="@drawable/baseline_circle_notifications_24wite"
             tools:srcCompat="@drawable/baseline_circle_notifications_24wite" />
 
@@ -60,7 +60,7 @@
         android:layout_width="418dp"
         android:layout_height="41dp"
         android:background="@color/SecondaryColor"
-        android:text="Notification"
+        android:text="@string/notification"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -94,7 +94,7 @@
             android:layout_width="379dp"
             android:layout_height="54dp"
             android:background="@drawable/button_shape"
-            android:hint="Title"
+            android:hint="@string/title"
             android:layout_margin="5dp"
             android:textColor="#030644"
             android:textSize="22sp"
@@ -111,7 +111,7 @@
             android:layout_height="140dp"
             android:layout_marginBottom="28dp"
             android:background="@drawable/button_shape"
-            android:hint="Details"
+            android:hint="@string/details"
             android:textColor="#030644"
             android:textSize="23sp"
             app:layout_constraintBottom_toTopOf="@+id/addNotificationButtpn"
@@ -125,7 +125,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:backgroundTint="@color/SecondaryColor"
-            android:text="Add notifications"
+            android:text="@string/add_notifications"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
             app:layout_constraintEnd_toEndOf="parent"
@@ -138,7 +138,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:backgroundTint="@color/SecondaryColor"
-            android:text="See All Notifications"
+            android:text="@string/see_all_notifications"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
             app:layout_constraintEnd_toEndOf="parent"
